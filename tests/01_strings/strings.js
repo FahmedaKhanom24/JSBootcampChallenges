@@ -7,10 +7,30 @@ function doesInclude(str, letter) {
 }
 
 function cap(str, letter) {
+  if (str.includes(letter)){
+    return str
+  }
+  else if (str.includes(letter)){
+    return 
+  }
+  else{
+    const message = "sorry not found"
+    return message
+  }
 
 }
 
 function firstCharacter(str1, str2) {
+  const string1= str1.charAt(0)
+  const string2 = str2.charAt(0)
+  if (string1.toLowerCase() === string2.toLowerCase()){
+    return true;
+  }
+    
+  else{
+    return false;
+  }
+    
 
 }
 
