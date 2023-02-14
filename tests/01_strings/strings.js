@@ -11,7 +11,7 @@ function cap(str, letter) {
     return str
   }
   else if (str.includes(letter)){
-    return 
+    
   }
   else{
     const message = "sorry not found"
