@@ -1,9 +1,12 @@
 /* eslint-disable no-unused-vars */
 
 function doesInclude(str, letter) {
-  const doesIncludeLetter = str.includes(letter);
-  return doesIncludeLetter;
-  
+  if(str.includes(letter)){
+    return true
+  }
+  else{
+    return false
+  }  
 }
 
 function cap(str, letter) {
