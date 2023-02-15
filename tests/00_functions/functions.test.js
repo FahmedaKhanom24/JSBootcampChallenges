@@ -31,7 +31,7 @@ describe.only('max', () => {
   });
 });
 
-describe('addUnknown', () => {
+describe.only('addUnknown', () => {
   it('is a function', () => {
     expect(typeof addUnknown).to.equal('function');
   });
@@ -52,7 +52,7 @@ describe('addUnknown', () => {
   });
 });
 
-describe('evenOrOdd', () => {
+describe.only('evenOrOdd', () => {
   it('is a function', () => {
     expect(typeof evenOrOdd).to.equal('function');
   });
@@ -73,7 +73,7 @@ describe('evenOrOdd', () => {
   });
 });
 
-describe('operator', () => {
+describe.only('operator', () => {
   it('is a function', () => {
     expect(typeof operator).to.equal('function');
   });
