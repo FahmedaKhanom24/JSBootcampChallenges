@@ -8,11 +8,12 @@ function doesInclude(str, letter) {
 
 function cap(str, letter) {
   if (str.includes(letter)){
-    return str
-  }
-  else if (str.includes(letter)){
-    const letter1= str.indexof(letter)
-    return letter1.toUppercase
+    const lenletter= str.indexOf(letter)
+    const addletterindex= (lenletter+1)
+    const letterwithadd = (str[addletterindex])
+    return (letterwithadd.toUpperCase())
+
+   
   }
   else{
     const message = "sorry not found"
