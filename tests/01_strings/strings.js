@@ -11,7 +11,8 @@ function cap(str, letter) {
     return str
   }
   else if (str.includes(letter)){
-    
+    const letter1= str.indexof(letter)
+    return letter1.toUppercase
   }
   else{
     const message = "sorry not found"

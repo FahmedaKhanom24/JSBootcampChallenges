@@ -5,7 +5,7 @@ const {
   max, addUnknown, evenOrOdd, operator,
 } = require('./functions');
 
-describe.only('max', () => {
+describe('max', () => {
   it('is a function', () => {
     expect(typeof max).to.equal('function');
   });
@@ -31,7 +31,7 @@ describe.only('max', () => {
   });
 });
 
-describe.only('addUnknown', () => {
+describe('addUnknown', () => {
   it('is a function', () => {
     expect(typeof addUnknown).to.equal('function');
   });
@@ -52,7 +52,7 @@ describe.only('addUnknown', () => {
   });
 });
 
-describe.only('evenOrOdd', () => {
+describe('evenOrOdd', () => {
   it('is a function', () => {
     expect(typeof evenOrOdd).to.equal('function');
   });
@@ -73,7 +73,7 @@ describe.only('evenOrOdd', () => {
   });
 });
 
-describe.only('operator', () => {
+describe('operator', () => {
   it('is a function', () => {
     expect(typeof operator).to.equal('function');
   });

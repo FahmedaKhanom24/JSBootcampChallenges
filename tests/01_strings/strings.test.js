@@ -5,7 +5,7 @@ const {
   cap, firstCharacter, doesInclude,
 } = require('./strings');
 
-describe.only('doesInclude', () => {
+describe('doesInclude', () => {
   it('is a function', () => {
     expect(typeof doesInclude).to.equal('function');
   });
@@ -26,7 +26,7 @@ describe.only('doesInclude', () => {
   });
 });
 
-describe.only('firstCharacter', () => {
+describe('firstCharacter', () => {
   it('is a function', () => {
     expect(typeof firstCharacter).to.equal('function');
   });
@@ -53,7 +53,7 @@ describe.only('firstCharacter', () => {
   });
 });
 
-describe.only('cap', () => {
+describe('cap', () => {
   it('is a function', () => {
     expect(typeof cap).to.equal('function');
   });
