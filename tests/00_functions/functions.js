@@ -14,7 +14,7 @@ function max(num1,num2,num3) {
 
 }
 
-function addUnknown(num1,num2,num3=0,num4=0,num5=0) {
+function addUnknown(num1,num2,num3,num4,num5) {
   if (num3===undefined){
     num3=0
   }
@@ -29,28 +29,28 @@ function addUnknown(num1,num2,num3=0,num4=0,num5=0) {
 
 function evenOrOdd(num1) {
   if (num1%2==0){
-    return ('even')
+    return 'even'
   }
   else{
-    return('odd')
+    return 'odd'
   }
 }
 
 function operator(num1,num2,num3) {
   if (num1+num2===num3){
-    return('plus')
+    return 'plus'
   }
   if (num1-num2===num3){
-    return('minus')
+    return 'minus'
   }
   if (num1*num2===num3){
-    return('multiply')
+    return 'multiply'
   }
   if (num1/num2===num3){
-    return('divide')
+    return 'divide'
   }
   else{
-    return (null)
+    return null
   }
 
 }

@@ -4,7 +4,7 @@ function factorial(num) {
   let factorial =1
 
   for (let i=1; i<=num; i++){
-    factorial *= i
+    factorial = factorial * i
   }
   return factorial
 }
@@ -19,20 +19,28 @@ function stringReverse(str) {
 
 // do not use built in slice method.
 function slicer(originalString, startIdx, endIdx) {
-  if (originalString===undefined){
+  
+  if (startIdx=== undefined){
     return originalString
   }
-  // if (startIdx===undefined){
-  //   startIdx=''
-  // }
-  // if (endIdx===undefined){
-  //   endIdx=''
-  // }
 
+  if (endIdx===undefined){
+    endIdx = originalString.length
+  }
+  let string1 =''
+  for (i=startIdx; i< endIdx; i++){
+    string1 += originalString[i]
+  }
 
+  return string1
 }
 
 function addTheEvens(num) {
+  let total =0
+  for (let i=0; i<=num; i+=2){
+    total +=i
+  }
+  return total
 
 }
 
